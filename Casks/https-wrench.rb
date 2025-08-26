@@ -13,22 +13,22 @@ cask "https-wrench" do
   on_macos do
     on_intel do
       url "https://github.com/xenos76/https-wrench/releases/download/0.0.2/https-wrench_0.0.2_Darwin_x86_64.tar.gz"
-      sha256 "4318d64f8076ba92a1a4f7b10080ea6a7dbb92ae54d6a31edbc6a09c6165d847"
+      sha256 "b8eb401a5c342dec68ca805a36c15a6ac5abca8e9bacb66e2f3322c9f30f4ce8"
     end
     on_arm do
       url "https://github.com/xenos76/https-wrench/releases/download/0.0.2/https-wrench_0.0.2_Darwin_arm64.tar.gz"
-      sha256 "260628bf0b04fa97f45c571b4946c34da1ef14f6432573684514b9761037d2fd"
+      sha256 "b92f6b647f922c902173435cc0b92863816e278dbaf3529e0ed169b0637583c4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xenos76/https-wrench/releases/download/0.0.2/https-wrench_0.0.2_Linux_x86_64.tar.gz"
-      sha256 "21b484b165df7fd9d6bb79e68a3c234166615124cac4e1467a98c42e45a34cb7"
+      sha256 "6aaa89e77987c79577964a7a3be9da19f853bb786c7025a01ab13f8b1ecd4410"
     end
     on_arm do
       url "https://github.com/xenos76/https-wrench/releases/download/0.0.2/https-wrench_0.0.2_Linux_arm64.tar.gz"
-      sha256 "016cd03c4926ecceeb846e55f8f3da9db82634ce81f2769613ad013193843a20"
+      sha256 "e49379a344f90997d38de9b9531d788ea21bd5acb08b902ce80314c1554c4738"
     end
   end
 
