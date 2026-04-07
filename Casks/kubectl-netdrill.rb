@@ -3,7 +3,7 @@ cask "kubectl-netdrill" do
   name "kubectl-netdrill"
   desc "kubectl-netdrill, a network troubleshooting plugin for Kubernetes."
   homepage "https://github.com/xenOs76/kubectl-netdrill"
-  version "0.0.1"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kubectl-netdrill" do
   on_macos do
     on_intel do
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Darwin_amd64.tar.gz"
-      sha256 "7438e85e1b63dd4d21c5ea7c1fbb0b50c4000378c18d6f0c3436f9f074c34c34"
+      sha256 "e076e50ee76263e3b391abbc3260e877f2e288fdf6aea66913ec00d9228d46d1"
     end
     on_arm do
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Darwin_arm64.tar.gz"
-      sha256 "2b2b2155f2874532f042b1218f0e119f1f7dfb5675f1b496605960cf6b16d643"
+      sha256 "18c0b0748e5f4a2019adc259247ca9214cfef489a63c8ea7c12e2d3c67a7660a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Linux_amd64.tar.gz"
-      sha256 "a916f005a236c6bcddfb3680342d2bf89acfca5283bce01c560edb1f38d31a8e"
+      sha256 "51c1723113da0df75f04065d8b79e6694311dea5314523046b90d272725b4ea3"
     end
     on_arm do
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Linux_arm64.tar.gz"
-      sha256 "6532808a437c57d5feeb7665bee1982620cc2cbaa56f47785c7ae66eee961fb4"
+      sha256 "12035bd524f1965b3dfe14e45f2a53e3721f80f324c36efd97a9859867a41d8e"
     end
   end
 
