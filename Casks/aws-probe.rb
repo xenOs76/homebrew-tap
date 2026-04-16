@@ -3,7 +3,7 @@ cask "aws-probe" do
   name "aws-probe"
   desc "aws-probe, a tool for checking cloud wiring"
   homepage "https://github.com/xenOs76/aws-probe"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "aws-probe" do
   on_macos do
     on_intel do
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Darwin_amd64.tar.gz"
-      sha256 "93931d122efc3e3d963255320b05bf75607f0fb63d2963afc81366dbad73f39d"
+      sha256 "a1160ec279ba1382837eea5960e8888c0638fc360dd748cbe3106c66c43a2506"
     end
     on_arm do
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Darwin_arm64.tar.gz"
-      sha256 "da4f6d9b14d98460f35b3c416b7278446685a3936fe5d59c39501d79e7f7858f"
+      sha256 "3062fbcc7dc8910fce77d8f6afec47116747cebc6c09782df346d92cba0cc0bf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Linux_amd64.tar.gz"
-      sha256 "ff986dd699ed3fd93d851b129a1a0111efc6638c04c151d52c83d6d900c40f69"
+      sha256 "cbee72d33f8e4d82fd7e7c2bc6a794863aa112ef0fce9f29672a686921716136"
     end
     on_arm do
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Linux_arm64.tar.gz"
-      sha256 "bf0fe16a4fb6739b795931a78146c4a56c2785f86aebf36544d64ec80101ed26"
+      sha256 "d9e961394de87b86077a3b2fc21cb6e9875bfbc571514dae76c6156e388fb512"
     end
   end
 
