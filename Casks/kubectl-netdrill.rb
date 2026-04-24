@@ -4,22 +4,22 @@ cask "kubectl-netdrill" do
 
   on_macos do
     on_intel do
-      sha256 "2944d53b3e3b029f4ce30b1ad551046655a09c36182222d32781524d7f981e68"
+      sha256 "0285427728cbbaa47aa6cc9de44c83d525aa64745f09ad8715285fe388a7458f"
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "d3f43388d381a39a20d9ffd734e0cd37a2ccb0d3d03683e94128c14116c9d5ac"
+      sha256 "aa56fd56afb3ea3843c71c87d813a739d20f99a4c25b5019e5d8f78623d73550"
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "90093bf8507567d62695e840cc2f3df666a65a62dd0a6b5225682ba66f95149f"
+      sha256 "939af2ebdb43a1e94046c1fe936349aa63d6925f955e562a002c3c9156847657"
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "e17ff2ebccdcddf6759889773aaa5cb04444cd1f0337831810c4175ede674bd4"
+      sha256 "7e7bc2f48d67e1b4e2bfee17f08a71bec5eabaa0e011e80e702809a1d21414a9"
       url "https://github.com/xenos76/kubectl-netdrill/releases/download/#{version}/kubectl-netdrill_#{version}_Linux_arm64.tar.gz"
     end
   end
