@@ -4,22 +4,22 @@ cask "aws-probe" do
 
   on_macos do
     on_intel do
-      sha256 "07475ad48309db63b8bb7acc85701d4f0a971baba0bc7fa2bcb538c92f259dac"
+      sha256 "6a19cf6e5b3554c009e8e1543b863ce69598bfbf53d7ce000a0a0580b1bdb8cb"
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c13d0a09917cd15e60b45afcb1303937bf26e6427fd363a66831e37ccfb875bc"
+      sha256 "465dc98c19aa3e4e3effa19e779639818efdc1200f92e30bcc4bd8123307f68f"
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "9cb0f99bc653ea15eebe3073dc2b1b3899cd4fbd0317f60847c99fc197685bb1"
+      sha256 "b5d580d3ae87ebf1ce5cfef58e88370e6770cef2eb34261f49c230e069d60421"
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "51501abcfb2fbab8359250731596bf7075cb8d7ca4b0fe513972217f6d3620e6"
+      sha256 "373ac5bb3172fd23a612d503c31f8239a0b56612dff43118e40f6104990850c6"
       url "https://github.com/xenos76/aws-probe/releases/download/#{version}/aws-probe_#{version}_Linux_arm64.tar.gz"
     end
   end
